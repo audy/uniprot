@@ -55,7 +55,7 @@ including the protein sequence.
 
 
 def logging(s):
-  sys.stdout.write(s)
+  sys.stderr.write(s)
 
 
 def is_html(text):
